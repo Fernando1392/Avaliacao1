@@ -20,11 +20,10 @@ Tabelas de Dados: A página de personagens apresenta um guia completo das 5 temp
 
 Formulário de Fã-Clube: A página de contato coleta preferências dos usuários sobre a série utilizando atributos dinâmicos do HTML5, como seleção de datas, barra de alcance (range), envio de fanarts e caixas de seleção com autocompletar (datalist).
 
-Interatividade Nativa: Tags <details> e <summary> empregadas para ocultar/exibir sinopses e curiosidades sobre personagens como Omar Little, sem necessidade de JavaScript.
+Interatividade Nativa: Tags details e summary empregadas para ocultar/exibir sinopses e curiosidades sobre personagens como Omar Little, sem necessidade de JavaScript.
 
-Mídia Estruturada: Uso de <figure> e <figcaption> para exibir e legendar imagens, além de um player de áudio integrado com a tag <audio controls> para tocar a música tema.
+Mídia Estruturada: Uso de figure e figcaption para exibir e legendar imagens, além de um player de áudio integrado com a tag audio controls para tocar a música tema.
 
-Marcação de Texto Rico: Destaques na narrativa utilizando tags semânticas como <abbr>, <mark>, <del>, <ins>, citações com <blockquote> e <cite>, além de medidores nativos como <progress> e <meter> para ilustrar o impacto cultural da série.
 
 🚀 Como Executar
 Baixe os arquivos do projeto para sua máquina local mantendo a estrutura de pastas.
