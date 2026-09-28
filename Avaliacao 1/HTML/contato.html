@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Fernando Lopes">
+    <meta name="keywords" content="The Wire, Fã Clube, Contato, Série de TV">
+    <meta name="description" content="Página dedicada a permitir que fãs da série The Wire se inscrevam no fã clube" >
+    <title>The Wire - Contato</title>
+</head>
+<body>
+    <header>
+        <h1>Junte-se ao Fã Clube de The Wire</h1>
+        <nav>
+            <a href="index.html">Página Inicial</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="personagens.html">Personagens e Temporadas</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="contato.html">Fã Clube / Contato</a><br>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Formulário de Inscrição</h2>
+            <p>Quer fazer parte da equipe de investigação Major Crimes Unit ou da organização Barksdale? Preencha os dados abaixo:</p>
+            <form action="#" method="get">
+                <fieldset>
+                    <legend>Dados Pessoais e Preferências</legend>
+
+                    <p>
+                        <label for="nascimento">Data de Nascimento:</label>
+                        <input type="date" id="nascimento" name="nascimento" required>
+                    </p>
+
+                    <p>
+                        <label for="personagem_fav">Personagem Favorito:</label>
+                        <input list="lista_personagens" id="personagem_fav" name="personagem_fav" placeholder="Escolha ou digite...">
+                        <datalist id="lista_personagens">
+                            <option value="Omar Little"></option>
+                            <option value="Jimmy McNulty"></option>
+                            <option value="Stringer Bell"></option>
+                            <option value="Bunk Moreland"></option>
+                            <option value="Lester Freamon"></option>
+                            <option value="Avon Barksdale"></option>
+                        </datalist>
+                    </p>
+
+                    <p>
+                        <label for="nota">Nota que você dá para a série (1 a 10):</label>
+                        <input type="range" id="nota" name="nota" min="1" max="10" value="10">
+                    </p>
+
+                    <p>
+                        <label for="fanart">Envie sua Fanart ou Foto com a camisa da série (Opcional):</label>
+                        <input type="file" id="fanart" name="fanart" accept="image/png, image/jpeg">
+                    </p>
+
+                    <p>
+                        <button type="submit">Enviar Formulário</button>
+                    </p>
+                </fieldset>
+            </form>
+            <blockquote>
+                So podem usar HTML por amor de Deus não usem css
+                <br>
+                <cite>— Professor Israel Costa</cite>
+            </blockquote>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Site dedicado a explorar a história da série The Wire.</p>
+    </footer>
+</body>
+</html>
